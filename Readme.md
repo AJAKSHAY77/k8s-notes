@@ -320,8 +320,20 @@ ans) config map is used in k8s to store data and this data at later point of tim
 
 What is secrets 
 ans) when we have to save some sensitive info then we store in secrets . what secrets do is its encrypt the data justbefore saving it into in etcd. K8s provided custom encryption but you can use other encryption also . now if hacker hacks the etcd also it the encrypted is of no use of him.
+
+
+What containers init inside pod yml in k8s?
+and) inside pod yml if container init is define then this container will created first and will complete its lifecycle then only other container will be created
+2) if two init then also first init will be created and complete its cycle then 2nd will be
+
+Real life example : if inside pod there are 2 con.
+Web app con
+db
+Then db will be connected first then web con will be created.
+
+
  
 
 
 
-l
+
