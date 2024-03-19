@@ -330,6 +330,7 @@ Real life example : if inside pod there are 2 con.
 Web app con
 db
 Then db will be connected first then web con will be created.
+..
 
 
  
